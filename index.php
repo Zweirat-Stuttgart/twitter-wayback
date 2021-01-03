@@ -22,6 +22,6 @@ Anzahl der Tage vor und nach heute (<?php print date("d.m.");?>):<br>
 Hier wird nichts gespeichert! Alle Daten, die Du hier eingibst, sind f&uuml;r uns nicht einsehbar.</p><br>
 <p>P.P.S: Und noch ein Hinweis:<br>
 Dieses kleine Projekt ist &ouml;ffentlich, kann von jeder:m weiterbearbeitet oder auch einfach nur genutzt werden.<br>
-Der Code liegt im GitHub: <a href="https://github.com/mega-stoffel/twitter-wayback" target="_blank">https://github.com/mega-stoffel/twitter-wayback</a></p>
+Der Code liegt im GitHub: <a href="https://github.com/Zweirat-Stuttgart/twitter-wayback" target="_blank">https://github.com/Zweirat-Stuttgart/twitter-wayback</a></p>
 </body>
 </html>
