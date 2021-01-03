@@ -45,8 +45,23 @@ print $todaysyearPlus . "---" . $todaysyearMinus;*/
 // --> https://twitter.com/jack/status/20 (on March 20th, 2006)
 // Issue #1 in the repository.
 // quick-and-dirty-fix: change search to start from 2007 instead of 2006.
+// This search with FirstYear=2007 does not work in January 2020.
 
-$firstYear = 2007;
+if ($todaysmonth >= 3)
+{
+	if ($todaysday >=12)
+	{
+		$firstYear = 2007;
+	}
+	else
+	{
+		$firstYear = 2008;
+	}
+}
+else
+{
+	$firstYear = 2008;
+}
 
 if ($todaysday == 1)
 {
