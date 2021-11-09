@@ -5,7 +5,15 @@
 <body>
 <?php 
 $twitter_Name = $_POST["username"];
-print $twitter_Name;
+if (is_string($twitter_Name) AND strlen($twitter_Name) > 0 AND strlen($twitter_Name)<20)
+	{
+	print $twitter_Name;
+	}
+else
+	{
+	die ("na, no valid twitter name!");
+	}
+
 $offset = $_POST["dateoffset"];
 print " mit dem Offset: " . $offset. " Tag(e)<br>\n";
 
@@ -87,7 +95,7 @@ for ($yearCounter = $todaysyear-1; $yearCounter>= $firstYear; $yearCounter--)
 	}
 }
 
-print "<br><br><a href=\"https://twitter.com/search?q=from:".$twitter_Name. " ". $searchstring ."&src=typd\" target=\"_blank\">Klick den Link</a>\n";
+print "<br><br><a href=\"https://twitter.com/search?q=from:".$twitter_Name. " ". $searchstring ."&src=typd&f=live\" target=\"_blank\">Klick den Link</a>\n";
 
 ?>
 </body>
