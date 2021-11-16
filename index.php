@@ -23,10 +23,10 @@ Und auch hierf&uuml;r gibt es eine Antwort!<br><br>
 <form action="twitter-search_days.php" method="post">
 Twitter-Username: <input type="text" name="username"><br>
 <input type="submit" value="Submit"><br><br>
-<input type="radio" name="daysoffset" value="100" checked>vor 100 Tagen<br> 
+<input type="radio" name="daysoffset" value="100">vor 100 Tagen<br> 
 <input type="radio" name="daysoffset" value="250">vor 250 Tagen<br> 
 <input type="radio" name="daysoffset" value="500">vor 500 Tagen<br> 
-<input type="radio" name="daysoffset" value="1000">vor 1000 Tagen<br> 
+<input type="radio" name="daysoffset" value="1000" checked>vor 1000 Tagen<br> 
 <input type="radio" name="daysoffset" value="1500">vor 1500 Tagen<br> 
 <input type="radio" name="daysoffset" value="2000">vor 2000 Tagen<br> 
 <!-- first tweet ever: March 21, 2006
