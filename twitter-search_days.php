@@ -48,7 +48,7 @@ $todaysyearMinus = date("Y", $offsetdateMinus);
 
 $searchstring = $searchstring . "(since:".$todaysyearMinus."-".$todaysmonthMinus."-".$todaysdayMinus." until:".$todaysyearPlus."-".$todaysmonthPlus."-".$todaysdayPlus.")\n";
 
-print "<br><br><a href=\"https://twitter.com/search?q=from:".$twitter_Name. " ". $searchstring ."&src=typd&f=live\" target=\"_blank\">Klick den Link</a>\n";
+print "<br><br><a href=\"https://twitter.com/search?q=from:".$twitter_Name. " ". $searchstring ."&src=typd&f=live\" target=\"_blank\">Klick den Link f&uuml;r den ".($todaysdayMinus+1) .".". $todaysmonthMinus .".". $todaysyearMinus."</a>\n";
 
 ?>
 </body>
